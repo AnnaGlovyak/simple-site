@@ -1,8 +1,27 @@
+body {
+    display: block;
+    font-size: 18px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
 .header {
     background-color: #ff0000;
     text-align: center;
     color: white;
 }
-.container-img {
+img {
     width: 100%;
+}
+article {
+    padding: 20px 0;
+}
+.container-gallery{
+    text-align: center;
+}
+.container-gallery img {
+    display: inline-block;
+    border: 5px dashed black;
+    width: 100px;
+    margin-left: 10px;
 }
